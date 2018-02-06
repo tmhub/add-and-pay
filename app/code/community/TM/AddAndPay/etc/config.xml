@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<config>
+
+    <modules>
+        <TM_AddAndPay>
+            <version>1.0.0</version>
+        </TM_AddAndPay>
+    </modules>
+
+    <global>
+        <helpers>
+            <tm_addandpay>
+                <class>TM_AddAndPay_Helper</class>
+            </tm_addandpay>
+        </helpers>
+    </global>
+
+</config>

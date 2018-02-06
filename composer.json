@@ -1,0 +1,13 @@
+{
+    "name": "tm/add-and-pay",
+    "type": "magento-module",
+    "homepage": "https://github.com/tmhub/add-and-pay",
+    "license": "OSL-3.0",
+    "description": "Add button 'Add & Pay' on product page",
+    "authors": [
+        {
+            "name": "Templates-Master Team",
+            "email": "support@templates-master.com"
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+# AddAndPay symlinks
+app/code/community/TM/AddAndPay/               app/code/community/TM/AddAndPay/
+app/etc/modules/TM_AddAndPay.xml               app/etc/modules/TM_AddAndPay.xml
