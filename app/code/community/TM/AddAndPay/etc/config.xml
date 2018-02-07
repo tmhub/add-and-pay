@@ -13,6 +13,31 @@
                 <class>TM_AddAndPay_Helper</class>
             </tm_addandpay>
         </helpers>
+        <models>
+            <tm_addandpay>
+                <class>TM_AddAndPay_Model</class>
+            </tm_addandpay>
+        </models>
     </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <tm_addandpay module="TM_AddAndPay">
+                    <file>tm/addandpay.xml</file>
+                </tm_addandpay>
+            </updates>
+        </layout>
+        <events>
+            <checkout_cart_add_product_complete>
+                <observers>
+                    <tm_addandpay>
+                        <class>tm_addandpay/observer</class>
+                        <method>addToCartComplete</method>
+                    </tm_addandpay>
+                </observers>
+            </checkout_cart_add_product_complete>
+        </events>
+    </frontend>
 
 </config>

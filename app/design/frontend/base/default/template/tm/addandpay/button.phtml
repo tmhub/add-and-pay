@@ -1,0 +1,7 @@
+<?php
+    $buttonTitle = $this->__('Add & Pay');
+?>
+<div class="addandpay-wrapper" style="text-align: right; margin-top: .5em; ">
+    <input type="hidden" name="redirect_to_checkout" value="0" />
+    <button type="button" title="<?php echo $buttonTitle ?>" id="product-addandpay-button" class="button btn-cart" onclick="$(this).siblings('[name=redirect_to_checkout]')[0].value='1'; productAddToCartForm.submit(this);"><span><span><?php echo $buttonTitle ?></span></span></button>
+</div>
