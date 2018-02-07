@@ -1,7 +1,8 @@
 <?php
     $buttonTitle = $this->__('Add & Pay');
 ?>
-<div class="addandpay-wrapper" style="text-align: right; margin-top: .5em; ">
+<div class="addandpay-wrapper" style="text-align: right; padding-top: .5em; clear: both; ">
     <input type="hidden" name="firecheckout" value="0" />
-    <button type="button" title="<?php echo $buttonTitle ?>" id="product-addandpay-button" class="button btn-cart" onclick="$(this).siblings('[name=firecheckout]')[0].value='1'; productAddToCartForm.submit(this);"><span><span><?php echo $buttonTitle ?></span></span></button>
+    <button type="button" title="<?php echo $buttonTitle ?>" id="product-addandpay-button" class="button btn-cart" onclick="$(this).siblings('[name=firecheckout]')[0].value='1'; productAddToCartForm.submit(this);" style="float: none;"><span><span><?php echo $buttonTitle ?></span></span></button>
+    <div class="clearer"></div>
 </div>
